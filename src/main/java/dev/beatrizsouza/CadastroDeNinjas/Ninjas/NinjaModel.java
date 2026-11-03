@@ -1,6 +1,9 @@
-package dev.beatrizsouza.CadastroDeNinjas;
+package dev.beatrizsouza.CadastroDeNinjas.Ninjas;
 
+import dev.beatrizsouza.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
+
+import java.util.List;
 
 // Entity transforma uma classe em entidade do banco de dados
 @Entity
@@ -13,11 +16,16 @@ public class NinjaModel {
     private String email;
     private int  idade;
 
+    @ManyToOne
+    @JoinColumn(name = "missoes_id") //Foreing Key ou chave estrangeira
+    private MissoesModel missoes;
+
     public NinjaModel(){}
     public NinjaModel(String nome, String email, int idade){
     this.nome = nome;
     this.email = email;
-    this.idade = idade;}
+    this.idade = idade;
+    }
 
     public String getNome() {
         return nome;
