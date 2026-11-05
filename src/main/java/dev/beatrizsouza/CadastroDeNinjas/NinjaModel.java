@@ -1,13 +1,11 @@
-package dev.beatrizsouza.CadastroDeNinjas.Ninjas;
+package dev.beatrizsouza.CadastroDeNinjas;
 
 import dev.beatrizsouza.CadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import java.util.List;
-
 // Entity transforma uma classe em entidade do banco de dados
 @Entity
 @Table(name = "tb_cadastro")
