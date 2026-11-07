@@ -1,6 +1,6 @@
-package dev.beatrizsouza.CadastroDeNinjas.Missoes;
+package Missoes;
 
-import dev.beatrizsouza.CadastroDeNinjas.NinjaModel;
+import dev.beatrizsouza.CadastroDeNinjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

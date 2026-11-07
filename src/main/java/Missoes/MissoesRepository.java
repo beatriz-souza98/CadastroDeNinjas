@@ -1,4 +1,4 @@
-package dev.beatrizsouza.CadastroDeNinjas.Missoes;
+package Missoes;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
