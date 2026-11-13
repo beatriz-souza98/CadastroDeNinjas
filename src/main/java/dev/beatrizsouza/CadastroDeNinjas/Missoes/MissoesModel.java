@@ -1,4 +1,4 @@
-package Missoes;
+package dev.beatrizsouza.CadastroDeNinjas.Missoes;
 
 import dev.beatrizsouza.CadastroDeNinjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
